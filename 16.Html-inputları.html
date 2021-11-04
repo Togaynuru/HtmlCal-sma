@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" /> <br />
+      <hr />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" /><br />
+      <hr />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" /><br />
+      <hr />
+
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" /><br />
+      <hr />
+
+      <label for="Gender">Gender</label><br />
+      <label for="text" name="Male">Male</label>
+      <input type="radio" name="Gender" value="Male" checked />
+      <label for="text" name="Female">Female</label>
+      <input type="radio" name="Gender" value="Male" />
+      <hr />
+
+      <label for="Hobbies">Hobbies</label><br />
+      <label for="Technology">Technology</label>
+      <input type="checkbox" name="Tech" id="Tech" />
+      <label for="Music">Music</label>
+      <input type="checkbox" name="Music" id="Music" />
+      <label for="Art">Art</label>
+      <input type="checkbox" name="Art" id="Art" />
+      <hr />
+
+      <label for="degree">Eğitim Düzeyi</label> <br />
+      <select name="degree" id="degree">
+        <option value="bachelor">Lisans</option>
+        <option value="msc" selected>Yüksek Lisans</option>
+        <option value="phd">Doktora</option>
+      </select>
+      <hr />
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="10"
+        rows="10"
+        placeholder="Yaz Bana"
+      ></textarea>
+      <br />
+      <hr />
+
+      <button type="submit">Gönder</button>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+      
+    </form>
+  </body>
+</html>

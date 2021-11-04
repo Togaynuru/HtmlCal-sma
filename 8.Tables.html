@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+<!-- Css
+Burası css ile tablonun tablo olarak görünebilmesi için borderları görünsün diye ufak bir css
+kullandığımız alandır.... İnline css
+
+-->
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+        border-color: rgb(10, 10, 10);
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+<!-- thead ve tbody etiketleri html5 ile gelmiş olup daha rahat bir şekilde tablonun başlık ve gövde kısmını düzenlememezi sağlar. -->
+
+      <thead>
+        <tr>
+          <th>İsim</th>
+          <th>Departman</th>
+          <th>Maaş</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Togay</td>
+          <td>IT</td>
+          <td>10000</td>
+        </tr>
+        <tr>
+          <td>Gizem</td>
+          <td>Sağlık</td>
+          <td>8000</td>
+        </tr>
+        <tr>
+          <td>Kemal</td>
+          <td>Makine</td>
+          <td>10000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

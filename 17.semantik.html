@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantik</title>
+</head>
+<body>
+<!-- 
+Eskiden olsa div'lere Id vererek yönetmeye çalışırdık
+fakat bu şekilde hem arama motorlarının indekslemesi zor olurdu hemde kodlar içerisinde
+karmaşa olabilirdi. Bu sebep ile SEMANTİK Elementler kullanılmaya başlandı. -->
+    
+<!--Eskiden bu sekilde yapılıyordu..
+<div id="header"></div>
+<div id="nav-top"></div>
+<div id="main"></div>
+<div id="sidebar"></div>
+<div id="footer"></div>
+-->
+
+<!--Semantik Kullanımı
+
+Aşağıdaki alanda anlamsal bir farklılık yok divler ilede yapılır ki zaten yukarda da yaptık
+
+Anlaması daha kolay dırek tag isimleri oldugu için
+-->
+<header>
+    <h1>Bilge Adam</h1>
+
+<nav id="top">
+    <a href="#">Anasayfa</a>
+    <a href="#">Ürünlerimiz</a>
+    <a href="#">Hakkımızda</a>
+    <a href="#">İletişim</a>
+</nav>
+
+<section>
+
+    <article>
+        durum1
+    </article>
+    
+    <article>
+        durum2
+    </article>
+    
+    <article>
+        durum3
+    </article>
+
+</section>
+
+<aside> <!--Yan Menu-->
+<nav id="sidenav">
+    <a href="#">Yaan1</a>
+    <a href="#">Yaan2</a>
+    <a href="#">Yaan3</a>
+</nav>
+</aside>
+
+</header>
+
+<footer>
+    Copyright
+</footer>
+
+</body>
+</html>
